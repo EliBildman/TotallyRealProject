@@ -5,7 +5,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd $DIR
 
-if [ $rand -ge 0 ]
+if [ $rand -ge 1 ]
 then
 
     echo "last ran $(date)" > important_info.txt
