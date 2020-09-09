@@ -1,8 +1,11 @@
 #!/bin/bash
 
 rand=$(( $RANDOM % 3 ))
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-if [ $rand -ge 1 ]
+cd $DIR
+
+if [ $rand -ge 0 ]
 then
 
     echo "last ran $(date)" > important_info.txt
