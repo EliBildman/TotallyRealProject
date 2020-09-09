@@ -23,7 +23,7 @@ then
     git stage "important_info.txt"
     git commit -m "${array[$index]}"
 
-    git push https://$user:$pass@github.com/EliBildman/TotallyRealProject.git
+    git push #https://$user:$pass@github.com/EliBildman/TotallyRealProject.git
 else
 
     echo "did not run"
