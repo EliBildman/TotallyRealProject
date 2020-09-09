@@ -13,3 +13,4 @@ git stage "important_info.txt"
 git commit -m "${array[$index]}"
 
 git push
+
